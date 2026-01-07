@@ -1,4 +1,4 @@
-//global styles
+/* global styles */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
@@ -7,7 +7,7 @@ body {
   line-height: 1.6;
 }
 
-//header
+/* header */
 header {
   background-color: rgb(136, 3, 3);
   color: rgb(0, 0, 0);
@@ -30,7 +30,7 @@ header a:hover {
   text-decoration: underline;
 }
 
-// sections
+/* sections */
 section {
   max-width: 900px;
   margin: 2rem auto;
@@ -43,7 +43,7 @@ h2 {
   color: rgb(0, 0, 0);
 }
 
-//projects grid
+/* projects grid */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -72,7 +72,7 @@ h2 {
   margin-bottom: 1rem;
 }
 
-//footer
+/* footer */
 footer {
   background-color: rgb(136, 3, 3);
   color: white;
